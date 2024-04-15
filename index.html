@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>CatPhotoApp</h1>
+
+    <h2>Cat Photos</h2>
+    <p>See more <a href="#" onclick="alert(`Normally this link would bring you to another website! It works. This is a link to: https://freecatphotoapp.com/`)" id="firstLink">cat photos</a> in our gallery.</p>
+
+    <h2>Cat Lists</h2>
+
+    <img src="./photos/relaxing-cat.jpg" alt="relaxing cat Photo">
+
+    <h3>Things cats love:</h3>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+
+    <figure>
+        <img src="./photos/lasagna.jpg" alt="lasagna">
+        
+        <figcaption>Cats <em>love</em> lasagna.</figcaption>
+    </figure>
+
+
+    <h3>Top 3 things cats hate:</h3>
+
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+
+    <figure>
+        <img src="./photos/cats.jpg" alt="many kittens">
+        
+        <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+    </figure>
+
+    <h2>Cat Form</h2>
+    <form action="#">
+        <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label for="indoorCat">
+                <input checked="checked" type="radio" name="doorType" id="indoorCat">
+                indoor
+            </label>
+            <label for="outdoorCat">
+                <input type="radio" name="doorType" id="outdoorCat">
+                outdoor
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What is your cat's personality?</legend>
+            <label for="lovely_personality">
+                <input checked="checked" type="checkbox" name="catPersonality" id="lovely_personality"> Lovely   
+            </label>
+            <label for="lazy_personality">
+                <input type="checkbox" name="catPersonality" id="lazy_personality"> Lazy
+            </label>
+            <label for="energetic_personality">
+                <input type="checkbox" name="catPersonality" id="energetic_personality"> Energetic
+            </label>
+        </fieldset>
+        <input type="text" name="search_bar" id="search_bar" placeholder="cat photo URL"> <input type="submit" value="Submit">
+    </form>
+    
+    <p>No Copyright - <a id="freeCodeCamp_link" href="#" onclick="alert(`Normally this link would bring you to another website! It works. This is a link to: https://freecatphotoapp.com/`)">freeCodeCamp.org</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
